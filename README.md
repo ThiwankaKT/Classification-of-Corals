@@ -77,7 +77,7 @@ The Jupyter Notebook includes:
 Clone the repository and install dependencies:
 
 ```bash
-git clone [github.com](https://github.com/yourusername/coral-health-classification.git)
+git clone [github.com](https://github.com/ThiwankaKT/Classification-of-Corals.git)
 cd coral-health-classification
 
 pip install -r requirements.txt
@@ -88,7 +88,8 @@ Run the training notebook or the Streamlit app:
 streamlit run app.py
 ```
 
-🧩 Technologies Used
+## 🧩 Technologies Used
+
 - Python 3.10+
 - TensorFlow / Keras
 - NumPy, Pandas, Matplotlib, Seaborn
@@ -96,12 +97,15 @@ streamlit run app.py
 - Streamlit
 - Pillow
 
-📈 Results Summary
+## 📈 Results Summary
+
 |Model	|Test Accuracy	|Notes|
+|--------|--------------|-----|
 |ResNet50	|~76.7%	|Good baseline|
 |EfficientNetB0|	~81%	|Higher accuracy and better generalization|
 
-🌺 Future Improvements
+## 🌺 Future Improvements
+
 - Add Grad‑CAM heatmaps for explainability
 - Integrate advanced hyperparameter tuning
 - Expand dataset diversity & size
