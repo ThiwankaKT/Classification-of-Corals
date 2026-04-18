@@ -14,8 +14,8 @@ It includes:
 The dataset is available on [Kaggle](https://www.kaggle.com/datasets/vencerlanz09/healthy-and-bleached-corals-image-classification).
 
 It consists of two folders:
-bleached_corals/ → 485 images healthy_corals/ → 483 images
-
+- bleached_corals/ → 485 images 
+- healthy_corals/ → 483 images
 
 Each image shows a coral specimen labeled as either **bleached** or **healthy**.
 
@@ -111,7 +111,8 @@ streamlit run app.py
 - Expand dataset diversity & size
 - Deploy model via Streamlit Cloud or Hugging Face Spaces
 
-📞 Acknowledgments
-- Dataset from [kaggle.com]
+## 📞 Acknowledgments
+
+- Dataset from [kaggle.com](https://www.kaggle.com/)
 - TensorFlow & Keras for the transfer learning architectures
 - Streamlit for the web app interface
