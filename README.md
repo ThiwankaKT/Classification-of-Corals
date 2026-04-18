@@ -51,7 +51,7 @@ Each image shows a coral specimen labeled as either **bleached** or **healthy**.
 ## 💻 Streamlit Web App
 
 You can try the interactive demo here:  
-👉 **[Coral Health Classifier App](YOUR_APP_LINK_HERE)**  
+👉 **[Coral Health Classifier App](https://classification-of-corals.onrender.com/)**  
 
 Upload a coral photo, and the app predicts whether it's **Healthy** or **Bleached**, along with the **confidence score**.
 
@@ -81,9 +81,12 @@ git clone [github.com](https://github.com/yourusername/coral-health-classificati
 cd coral-health-classification
 
 pip install -r requirements.txt
+```
 
 Run the training notebook or the Streamlit app:
+```bash
 streamlit run app.py
+```
 
 🧩 Technologies Used
 - Python 3.10+
