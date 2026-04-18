@@ -72,7 +72,7 @@ st.markdown(
 @st.cache_resource
 def load_effnet_model():
     try:
-        model = load_model("model_effnet.h5", compile=False)
+        model = load_model("model_effnet_fixed", compile=False)
         return model
     except Exception as e:
         st.error(f"❌ Model loading failed: {e}")
